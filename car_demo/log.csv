@@ -1,0 +1,33 @@
+timestamp,func,input,comment
+2025-08-06T09:00:07.656803,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:00:14.294978,get_car_info,{'action': 'auto'},action:auto
+2025-08-06T09:00:25.646958,auto_navigation_setup,"{'car_info': ""{'status': {'car_id': '0', 'car_history_directory': './data/', 'car_preference_directory': './preference/', 'car_current_time': '25:08:06:13:47', 'car_current_location': '121.307751, 31.208762'}, 'history': [{'car_id': '0', 'time': '25:08:06:13:47', 'car_start_location': '121.307751, 31.208762', 'car_end_location': '121.457775, 31.253214', 'purpose': 'to_work'}, {'car_id': '0', 'time': '25:08:06:18:00', 'car_start_location': '121.457775, 31.253214', 'car_end_location': '121.307751, 31.208762', 'purpose': 'to_home'}], 'preference': {'car_id': '0', 'car_preference_home_location': '121.307751, 31.208762', 'car_preference_working_location': '121.457775, 31.253214', 'car_preference_home_time': '25:08:06:18:00', 'car_preference_working_time': '25:08:06:13:47'}}""}",action: auto_navigation_setup
+2025-08-06T09:14:40.634750,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:14:51.260584,get_car_info,{'action': 'auto'},action:auto
+2025-08-06T09:20:27.412204,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:21:19.734957,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:25:47.925591,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:30:21.971310,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:32:14.458994,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:32:19.747452,get_car_info,{'action': 'auto'},action:auto
+2025-08-06T09:34:15.463345,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:36:16.425516,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:38:09.673300,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:39:13.628984,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:40:42.360948,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:49:04.942060,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:50:01.288318,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:51:25.485620,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:52:29.874072,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:54:56.951614,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:56:08.724332,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:56:54.287048,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T09:57:49.630192,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:01:44.642584,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:02:24.513122,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:04:23.223047,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:05:12.131943,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:05:47.329059,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:08:06.165072,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-06T10:09:08.851546,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]
+2025-08-07T01:43:58.050288,main,{'action_name': '[cmd:auto]'},action:[cmd:auto]

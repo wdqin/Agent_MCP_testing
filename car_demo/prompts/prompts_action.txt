@@ -1,0 +1,1 @@
+1. Check "action name", if it is "auto", load "prompts/prompt_auto.txt" to continue to run commands in it, otherwise, reply saying the action name is not recognized.

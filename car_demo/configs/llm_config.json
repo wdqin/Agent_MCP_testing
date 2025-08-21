@@ -1,0 +1,5 @@
+{
+  "model": "qwen3:30b-a3b",
+  "model_server": "http://localhost:11434/v1",
+  "api_key": "EMPTY"
+}

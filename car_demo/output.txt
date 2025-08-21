@@ -1,0 +1,21 @@
+
+
+1. **Next Navigation Purpose**: Based on the current time (2025-08-06 19:00) and the driver's preference for dinner at **19:08**, the next purpose is **"go to eat"** (dinner). The current time is 8 minutes before the estimated dinner time, aligning with the habitual dinner timing.
+
+2. **Preferred Destination**: The driver's preferred dinner locations include **"申滨路 990号 虹桥良华购物广场"** (Shenbin Road 990, Hongqiao Lianghua Shopping Plaza), which matches the pattern in the travel history (e.g., travel_id 2 and 10). The current location (Shanghai Center, Pudong) is closest to this dining spot in the Minhang District, making it the most viable destination.
+
+3. **Driving Route Calculation**:  
+   Using `amap_agent_mcp`, the route from **Shanghai Center Building (Pudong)** to **Hongqiao Lianghua Shopping Plaza (Shenbin Road 990, Minhang District)** will be calculated. The route prioritizes real-time traffic and optimal pathing via AMap's navigation system.
+
+---
+
+**Tool Call**:  
+```json
+{
+  "action": "amap_agent_mcp",
+  "action_input": {
+    "origin": "上海市浦东新区上海中心大厦",
+    "destination": "上海市闵行区申滨路990号虹桥良华购物广场"
+  }
+}
+```

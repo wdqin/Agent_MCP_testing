@@ -1,0 +1,11 @@
+{
+  "car_id": "0",
+  "car_preference_home_location": "上海市闵行区申滨路1033号",
+  "car_preference_estimate_home_time": "20:00",
+  "car_preference_working_location": "上海市静安区中兴路1509号",
+  "car_preference_estimate_work_time": "08:30",
+  "car_preference_breakfast_restaurants": ["静安区中兴路1509号", "上海市静安区南京西路1376号"],
+  "car_preference_estimate_breakfast_time": "07:47",
+  "car_preference_dinner_restaurants": ["申滨路 990号 虹桥良华购物广场", "上海市闵行区申滨路1033号","申滨路爱博三村社区西南"],
+  "car_preference_estimate_dinner_time": "19:08"
+}

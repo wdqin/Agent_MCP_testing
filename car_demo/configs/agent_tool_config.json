@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "time": {
+      "command": "uvx",
+      "args": ["mcp-server-time", "--local-timezone=Asia/Shanghai"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "amap_agent_mcp": {
+                "command": "python",
+                "args": ["mcp_servers/amap_server.py"]
+            },
+    "gpt_llm_mcp": {
+                "command": "python",
+                "args": ["mcp_servers/llm_server.py"]
+            }
+  }
+    
+}

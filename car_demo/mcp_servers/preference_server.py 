@@ -1,0 +1,58 @@
+import os
+import sys
+
+# Get the absolute path to the project root
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+# Add to sys.path if not already there
+if ROOT_DIR not in sys.path:
+    sys.path.append(ROOT_DIR)
+
+from mcp.server.fastmcp import FastMCP
+import json
+from utils import write_log
+
+mcp = FastMCP(name="status_server")
+
+def load_json_file(filepath):
+    """Load JSON file if it exists, else return None."""
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+STATUS_FILE = "./data/status.json"
+HISTORY_FILE = "./data/history.json"
+PREFERENCE_FILE = "./data/preference.json"
+
+@mcp.tool()
+def get_car_info(action: str) -> dict:
+    """
+    Load car status, history, and preference from files.
+    Only return status, history, and preference.
+    
+    Args:
+        action: A string describing what the caller wants to do.
+    
+    Returns:
+        dict: { "status": ..., "history": ..., "preference": ...}
+    """
+    # try:
+    if action == "auto":
+        status = load_json_file(STATUS_FILE)
+        history = load_json_file(HISTORY_FILE)
+        preference = load_json_file(PREFERENCE_FILE)  # Loaded but not returned fully
+        write_log("get_car_info", str({"action":action}),f"action:{action}")
+        return {
+                "action_received": action,
+                "status": status,
+                "history": history,
+                "preference": preference
+                }
+    else:
+        write_log("get_car_info", str({"action":action}),f"action failed.")
+        return False # f"action: {action}"
+
+
+if __name__ == "__main__":
+    mcp.run()

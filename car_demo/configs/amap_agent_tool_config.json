@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "time": {
+      "command": "uvx",
+      "args": ["mcp-server-time", "--local-timezone=Asia/Shanghai"]
+    },
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"]
+    },
+    "amap-maps": {
+                      "command": "npx",
+                      "args": ["-y", "@amap/amap-maps-mcp-server"],
+                      "env": {
+                        "AMAP_MAPS_API_KEY": "5c8c07deccb944cba5c2a997187aa541"
+                      }
+                }
+  } 
+}
